@@ -1,0 +1,7 @@
+print statement = System.out.println();
+
+your program takes control of your computer
+
+args[0] is the ﬁrst command-line argument that you type after the program name, args[1] is the second, and so forth.
+
+
