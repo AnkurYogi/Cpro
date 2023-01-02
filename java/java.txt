@@ -9,3 +9,7 @@ a data type is a set of values and a set of operations deﬁned on those values.
 There are eight primitive types of data in Java, mostly for different kinds of numbers. Of the eight primitive types, we most often use these: int for integers; double for real numbers; and boolean for true–false values.
 
 the meaning of = is decidedly not the same as in mathematical equations.
+
+Certain reserved words—such as public, static, int, double, String, true, false, and null—are special, and you cannot use them as identifiers.
+
+
