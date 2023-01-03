@@ -12,4 +12,6 @@ the meaning of = is decidedly not the same as in mathematical equations.
 
 Certain reserved words—such as public, static, int, double, String, true, false, and null—are special, and you cannot use them as identifiers.
 
+For arithmetic operations, multiplication and division are performed before addition and subtraction, so that a - b * c and a - (b * c) represent the same sequence of operations.
 
+When arithmetic operators have the same precedence, the order is determined by left associativity, so that a - b - c and (a - b) - c represent the same sequence of operations.
