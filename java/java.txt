@@ -15,3 +15,11 @@ Certain reserved words—such as public, static, int, double, String, true, fals
 For arithmetic operations, multiplication and division are performed before addition and subtraction, so that a - b * c and a - (b * c) represent the same sequence of operations.
 
 When arithmetic operators have the same precedence, the order is determined by left associativity, so that a - b - c and (a - b) - c represent the same sequence of operations.
+
+Type safety. Java requires you to declare the type of every variable. Thisenables Java to check for type mismatch errors at compile time and alert you to potential bugs in your program.
+
+Java’s built-in String type obeys special rules. One of these special rules is that you can easily convert a value of any type to a String value
+
+Java also provides library methods that convert the strings that we type as command-line arguments into numeric values for primitive types.
+
+For example, the value of 17 / 3 is 5, and the value of 17 % 3 is 2. The int results that we get from arithmetic operations are just what we expect, except that if the result is too large to ﬁt into int’s 32bit representation, then it will be truncated in a well-deﬁned manner. This situation is known as overflow.
